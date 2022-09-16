@@ -29,6 +29,10 @@ p {
 h2 {
   font-size: 32px;
 }
+h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
 
 .container {
   max-width: 768px;
@@ -81,7 +85,7 @@ h2 {
 
 /*  Header  */
 .header {
-  margin-top: 56px;
+  margin: 56px 0px;
 }
 
 .top-header {
@@ -129,6 +133,34 @@ h2 {
 
 .description {
   color: var(--gray-light);
+  font-size: 20px;
+}
+
+/* Writings */
+.post-list {
+  display: flex;
+  flex-direction: column;
+}
+.post-article {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px 8px 4px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.post-article:hover {
+  background-color: var(--black-medium);
+}
+
+.icon-file {
+  margin-right: 8px;
+}
+
+.seperator {
+  background-color: var(--black-medium);
+  height: 1px;
+  margin-bottom: 16px;
 }
 
 /* Modile view */
